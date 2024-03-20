@@ -362,7 +362,7 @@ nav.header-layout-1.sticky-header .dropdown>.dropdown-menu>li>a {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	top: 200px;
+	top: 25vh;
 	z-index: 10;
 	width: 100%;
 }
@@ -371,8 +371,16 @@ nav.header-layout-1.sticky-header .dropdown>.dropdown-menu>li>a {
 	display: flex;
 }
 
+#downloadWin{
+	display: inherit;
+}
+
+#downloadAndroid{
+	display: none;
+}
+
 .banner-slider .overlay h2 {
-	font-size: 45px;
+	font-size: 6vh;
 	font-weight: 700;
 	letter-spacing: 5px;
 	color: #ffffff;
@@ -382,6 +390,7 @@ nav.header-layout-1.sticky-header .dropdown>.dropdown-menu>li>a {
 }
 
 .banner-slider .overlay p {
+	font-size: 2vh;
 	color: #ffffff;
 	letter-spacing: 5px;
 	margin-bottom: 40px;
@@ -396,7 +405,7 @@ nav.header-layout-1.sticky-header .dropdown>.dropdown-menu>li>a {
 	text-align: center;
 	position: relative;
 	padding: 240px 80px 150px;
-	min-height: 700px;
+	min-height: 85vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -1210,8 +1219,16 @@ nav.header-layout-1.sticky-header .dropdown>.dropdown-menu>li>a {
 		font-size: 26px;
 	}
 
+	#downloadWin{
+		display: none;
+	}
+	
+	#downloadAndroid{
+		display: inherit;
+	}
+
 	.banner-slider-1 .banner-slide {
-		min-height: auto;
+		min-height: 85vh;
 		padding: 180px 80px 80px;
 	}
 
